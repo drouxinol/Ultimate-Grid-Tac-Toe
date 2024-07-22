@@ -20,7 +20,6 @@ bool Jogar_Single_player(Jogo **p,Lista **head, int n){
     int op;
     int cont = 1;
 
-    //METER O AUX A APONTAR PARA O FINAL DA LISTA PQ SENAO MUDAMOS O CONTEUDO QUE JA TINHAMOS
     if(aux != NULL){
         while(aux->next != NULL){
             aux = aux->next;
